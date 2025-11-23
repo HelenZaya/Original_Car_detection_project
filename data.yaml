@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['car', 'hatchback', 'sedan', 'suv', 'truck', 'van']
+
+roboflow:
+  workspace: 1st-aepxl
+  project: cartype_detector-niajq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/1st-aepxl/cartype_detector-niajq/dataset/1
